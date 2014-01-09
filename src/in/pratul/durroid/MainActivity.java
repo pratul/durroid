@@ -13,8 +13,6 @@ import android.widget.Button;
 
 import java.util.Calendar;
 
-
-
 public class MainActivity extends Activity {
 
     private SharedPreferences mSharedPrefs;
@@ -44,7 +42,6 @@ public class MainActivity extends Activity {
         }
 
     }
-
 
     public void onToggleButtonClick(View view) {
         Button button = (Button) view;

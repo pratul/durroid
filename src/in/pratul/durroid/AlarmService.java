@@ -5,14 +5,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Vibrator;
 
-
 public class AlarmService extends IntentService {
-
-
     public AlarmService() {
         super("AlarmReceiver");
     }
-
 
     @Override
     protected void onHandleIntent(Intent intent) {
