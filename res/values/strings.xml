@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Durroid</string>
+    <string name="tap_to_turn_off">Durroid is now running.\nTap to turn off.</string>
+    <string name="tap_to_turn_on">Durroid is not running.\nTap to turn on.</string>
+
+</resources>
