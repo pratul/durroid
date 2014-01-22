@@ -18,8 +18,8 @@ public class MainActivity extends Activity {
     private SharedPreferences mSharedPrefs;
     private AlarmManager mAlarmManager;
 
-    private int START_TIME_IN_SECONDS = 10;
-    private int REPEAT_TIME_IN_MILLIS = 5 * 60 * 1000;
+    private static final int START_TIME_IN_SECONDS = 10;
+    private static final int REPEAT_TIME_IN_MILLIS = 5 * 60 * 1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
